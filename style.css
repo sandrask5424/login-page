@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./images/pexels-james-wheeler-1486974.jpg);
+}
+
+.login-container {
+    width: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(19, 18, 18, 0.2);
+    overflow: hidden;
+    margin: auto; 
+}
+
+.login-form {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #040000;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    font-size: 14px;
+    color: #272424;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #100e0e;
+    padding: 10px;
+    border: none;
+    border-radius: 400px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+p{
+    text-align: center;
+}
